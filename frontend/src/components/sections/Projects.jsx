@@ -28,7 +28,7 @@ const projects = [
     description:
       "An analytics-first dashboard for a travel agency: trip metrics, customer flows and a clean editorial admin UI built for clarity at a glance.",
     image:
-      "https://images.unsplash.com/photo-1775178120154-0ee95586bfb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMG5pZ2h0fGVufDB8fHx8MTc3ODMyMTQyM3ww&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets.emergentagent.com/job_zaeem-editorial/artifacts/7z9k6tan_tad1.png",
     live: "https://travel-agency-dashboard-cyan-three.vercel.app/",
     github: "https://github.com/zaeemafzal-hub/travel-agency-dashboard",
     span: "md",
@@ -43,7 +43,7 @@ const projects = [
     description:
       "A learning platform interface — course cards, structured lessons and a calm reading layout built around content hierarchy.",
     image:
-      "https://static.prod-images.emergentagent.com/jobs/9da37acc-7b06-49a2-a627-164c81d03ee9/images/75eb7d912a815c6f7eb87d7ecede070c041bcfcf52a8239b61d1530c6f386eff.png",
+      "https://images.unsplash.com/photo-1610484826967-09c5720778c7?auto=format&fit=crop&w=1600&q=80",
     live: null,
     github: "https://github.com/zaeemafzal-hub/Online-Learnning-center-",
     span: "md",
@@ -58,7 +58,7 @@ const projects = [
     description:
       "A focused, minimal task manager — keyboard-first, persistent storage and small thoughtful interactions where it counts.",
     image:
-      "https://images.unsplash.com/photo-1772408186777-7bbc603c4fb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwbm90ZWJvb2slMjBkZXNrJTIwZGFya3xlbnwwfHx8fDE3NzgzMjE0MjN8MA&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets.emergentagent.com/job_zaeem-editorial/artifacts/iw7tsn2h_tf1.PNG",
     live: null,
     github: "https://github.com/zaeemafzal-hub/Todo-Task-list-Project",
     span: "md",
@@ -73,7 +73,7 @@ const projects = [
     description:
       "A device-focused storefront with rich product galleries, category filtering and a confident product detail layout.",
     image:
-      "https://images.unsplash.com/photo-1611255680670-3164d238e164?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwzfHxzbWFydHBob25lJTIwZmxvYXRpbmclMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzgzMjE0MjN8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=1600&q=80",
     live: null,
     github: "https://github.com/zaeemafzal-hub/react-phone-ecomerce-project",
     span: "md",
@@ -88,7 +88,7 @@ const projects = [
     description:
       "A real-estate browsing experience — listings, filters and detail views composed as a clean editorial product.",
     image:
-      "https://images.unsplash.com/photo-1774261583415-f4b6200bd1b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMG5pZ2h0fGVufDB8fHx8MTc3ODMyMTQyM3ww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1600&q=80",
     live: null,
     github: "https://github.com/zaeemafzal-hub/property_hub-",
     span: "lg",
