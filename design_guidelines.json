@@ -1,0 +1,137 @@
+{
+  "theme": "DARK",
+  "archetype": "5 (Jewel & Luxury) with a touch of 4 (Swiss & High-Contrast)",
+  "emotional_tone": "Cinematic, elegant, minimal, modern, immersive, technically sophisticated, gallery-like drama.",
+  "colors": {
+    "background": {
+      "base": "#050505",
+      "surface_1": "#121212",
+      "surface_2": "#1A1A1A",
+      "surface_glass": "rgba(18, 18, 18, 0.7)"
+    },
+    "text": {
+      "primary": "#F9F9F9",
+      "secondary": "#A3A3A3",
+      "muted": "#525252"
+    },
+    "border": {
+      "default": "#2A2A2A",
+      "light": "#333333"
+    },
+    "accent": {
+      "electric_blue": "#0057FF",
+      "electric_blue_glow": "rgba(0, 87, 255, 0.3)",
+      "electric_blue_hover": "#2563EB"
+    }
+  },
+  "typography": {
+    "font_imports": [
+      "@import url('https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&f[]=general-sans@200,300,400,500,600,700&display=swap');"
+    ],
+    "headings": {
+      "family": "'Clash Display', sans-serif",
+      "weight": "font-semibold to font-bold",
+      "letter_spacing": "tracking-tight",
+      "sizes": {
+        "h1": "text-5xl sm:text-6xl md:text-7xl (for hero massive text, fluid typography clamp)",
+        "h2": "text-4xl sm:text-5xl",
+        "h3": "text-2xl sm:text-3xl",
+        "h4": "text-xl"
+      }
+    },
+    "body": {
+      "family": "'General Sans', sans-serif",
+      "weight": "font-light to font-normal",
+      "letter_spacing": "tracking-normal",
+      "sizes": {
+        "large": "text-lg md:text-xl text-neutral-400",
+        "default": "text-base text-neutral-400",
+        "small": "text-sm text-neutral-500",
+        "overline": "uppercase tracking-[0.2em] text-xs text-neutral-500"
+      }
+    }
+  },
+  "spacing_and_layout": {
+    "padding_scale": "p-8, p-12, p-16, p-24, p-32 (Generous Spacing Philosophy)",
+    "grid_strategy": "Asymmetrical Broken Grid (Tetris Grid). Use 12-column layouts with elements spanning uneven columns to create tension. Heavy use of negative space.",
+    "section_transitions": "Fullscreen sections with smooth scrolling (Lenis is MANDATORY). Minimal clutter.",
+    "containers": "Avoid standard cards. Use large unbordered image regions or 1px subtle borders (border-neutral-800) for tech stack."
+  },
+  "motion_and_interactions": {
+    "scroll": "Smooth scrolling using Lenis to give the site weight and premium feel.",
+    "cursor": "Custom cursor glow dot (small, smooth). Subtle hover expansion on interactive elements. NO laggy trailing cursor or giant circles. Keep it minimal.",
+    "animations": {
+      "entrance": "Fade-up reveals, staggered content animation (using Framer Motion).",
+      "hover": "Image zoom on hover (scale-105 with long transition duration 0.6s ease-out), magnetic hover for buttons, text masking transitions.",
+      "parallax": "Soft parallax movement for large images and background elements."
+    },
+    "avoid": "Excessive motion, flashy effects, unnecessary particles."
+  },
+  "surfaces_and_effects": {
+    "glassmorphism": "For sticky nav only. bg-[#050505]/70 backdrop-blur-xl border-b border-white/5.",
+    "cards": "For Tech Stack: Flat background, 1px subtle border, glowing hover state via radial gradient mouse tracking (tracing beam effect)."
+  },
+  "media": {
+    "images": [
+      {
+        "id": "hero_bg",
+        "url": "https://static.prod-images.emergentagent.com/jobs/9da37acc-7b06-49a2-a627-164c81d03ee9/images/c7245a92fc6f7a930f55d33cb132bfacc3da2b325f99fb7c4bdd5e3e6a647e7a.png",
+        "description": "Abstract cinematic background for the Hero section, overlay with bg-black/60 to keep text readable."
+      },
+      {
+        "id": "profile_photo",
+        "url": "https://customer-assets.emergentagent.com/job_zaeem-editorial/artifacts/6b7lcq15_za1%281%29%281%29.png",
+        "description": "Developer profile photo for the About section."
+      },
+      {
+        "id": "project_1_react_ecommerce",
+        "url": "https://static.prod-images.emergentagent.com/jobs/9da37acc-7b06-49a2-a627-164c81d03ee9/images/45cb5588268f385c7255c702a2fab1d3d769e40ddf1371fffcc1e0fc20d6c466.png",
+        "description": "Premium 3D render UI mockup for React E-commerce App."
+      },
+      {
+        "id": "project_2_travel_dashboard",
+        "url": "https://images.unsplash.com/photo-1775178120154-0ee95586bfb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMG5pZ2h0fGVufDB8fHx8MTc3ODMyMTQyM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Modern architecture for Travel Agency Dashboard context."
+      },
+      {
+        "id": "project_3_learning_center",
+        "url": "https://static.prod-images.emergentagent.com/jobs/9da37acc-7b06-49a2-a627-164c81d03ee9/images/75eb7d912a815c6f7eb87d7ecede070c041bcfcf52a8239b61d1530c6f386eff.png",
+        "description": "High-end UI mockup for Online Learning Center."
+      },
+      {
+        "id": "project_4_todo_task_list",
+        "url": "https://images.unsplash.com/photo-1772408186777-7bbc603c4fb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwbm90ZWJvb2slMjBkZXNrJTIwZGFya3xlbnwwfHx8fDE3NzgzMjE0MjN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Minimalist dark notebook for Todo Task List project."
+      },
+      {
+        "id": "project_5_phone_ecommerce",
+        "url": "https://images.unsplash.com/photo-1611255680670-3164d238e164?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwzfHxzbWFydHBob25lJTIwZmxvYXRpbmclMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzgzMjE0MjN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Floating smartphone on dark background for Phone E-commerce."
+      },
+      {
+        "id": "project_6_property_hub",
+        "url": "https://images.unsplash.com/photo-1774261583415-f4b6200bd1b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMG5pZ2h0fGVufDB8fHx8MTc3ODMyMTQyM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Glowing dusk architecture for Property Hub."
+      }
+    ]
+  },
+  "component_instructions": {
+    "Hero": "Cinematic fullscreen. Use 'hero_bg' as absolute background with motion.div slow scale (parallax). Large 'ZAEEM AFZAL' in Clash Display. Subtle Electric Blue accents.",
+    "Projects": "Case study grid (1 or 2 per row). Use huge images with dark overlays that clear on hover. Image zoom on hover. Titles should be H2/H3 in Clash Display.",
+    "Tech Stack": "Interactive grid (bento-style). Floating icons using Framer Motion. 1px solid border (#2A2A2A) with inner glow on hover.",
+    "Contact": "Minimal form using Shadcn inputs but stripped of default borders, styled with border-b only or subtle dark fields.",
+    "Navigation": "Sticky, glassmorphism, minimal (Logo + 3 links + Let's Talk CTA)."
+  },
+  "testing": {
+    "attributes": "Add data-testid to all interactive elements, e.g., data-testid='contact-submit-button', data-testid='project-card-react-ecommerce'."
+  },
+  "instructions_to_main_agent": [
+    "Use framer-motion for fade-ups, staggering, and the custom cursor.",
+    "Install and setup Lenis for smooth scrolling.",
+    "Use lucide-react for icons.",
+    "Design with pure HTML + Tailwind for major layout sections to maintain the broken grid/asymmetrical look.",
+    "Forms can use Shadcn but must match the dark matte cinematic theme (no white borders).",
+    "Integrate the provided user choices: LinkedIn, GitHub, Email, and Project Links.",
+    "MongoDB + Resend for Contact Form as requested."
+  ]
+}

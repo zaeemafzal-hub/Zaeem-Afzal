@@ -1,0 +1,4 @@
+/* App-level styles intentionally minimal - everything lives in index.css */
+.App {
+  min-height: 100vh;
+}
