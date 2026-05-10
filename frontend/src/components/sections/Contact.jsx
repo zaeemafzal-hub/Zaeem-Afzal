@@ -79,7 +79,9 @@ const Contact = () => {
           <h2 className="font-display text-5xl sm:text-7xl md:text-[10rem] leading-[0.9] tracking-tight text-white">
             Let's build <br />
             something{" "}
-            <span className="italic font-light text-neutral-400">together.</span>
+            <span className="italic font-light text-neutral-400">
+              together.
+            </span>
           </h2>
         </Reveal>
 
@@ -134,6 +136,19 @@ const Contact = () => {
                         className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                       />
                     </a>
+                    <a
+                      data-testid="contact-github"
+                      href="https://github.com/zaeemafzal-hub"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="group inline-flex items-center gap-2 font-display text-lg md:text-xl text-white hover:text-[var(--accent)] transition-colors"
+                    >
+                      +92   3019074249
+                      <ArrowUpRight
+                        size={16}
+                        className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                      />
+                    </a>
                   </div>
                 </div>
                 <div>
@@ -147,7 +162,10 @@ const Contact = () => {
           </div>
 
           {/* Right: form */}
-          <Reveal delay={0.1} className="col-span-12 md:col-span-7 md:col-start-6">
+          <Reveal
+            delay={0.1}
+            className="col-span-12 md:col-span-7 md:col-start-6"
+          >
             <form
               onSubmit={onSubmit}
               data-testid="contact-form"

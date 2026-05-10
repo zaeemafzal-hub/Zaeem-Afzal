@@ -43,7 +43,7 @@ const projects = [
     description:
       "A learning platform interface — course cards, structured lessons and a calm reading layout built around content hierarchy.",
     image:
-      "https://images.unsplash.com/photo-1610484826967-09c5720778c7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.pexels.com/photos/33802242/pexels-photo-33802242.jpeg",
     live: null,
     github: "https://github.com/zaeemafzal-hub/Online-Learnning-center-",
     span: "md",
@@ -57,9 +57,8 @@ const projects = [
     tags: ["React", "State", "LocalStorage"],
     description:
       "A focused, minimal task manager — keyboard-first, persistent storage and small thoughtful interactions where it counts.",
-    image:
-      "https://customer-assets.emergentagent.com/job_zaeem-editorial/artifacts/iw7tsn2h_tf1.PNG",
-    live: null,
+    image: "https://images.pexels.com/photos/3832031/pexels-photo-3832031.jpeg",
+    live: "https://todo-task-list-project.vercel.app/",
     github: "https://github.com/zaeemafzal-hub/Todo-Task-list-Project",
     span: "md",
   },
@@ -216,12 +215,12 @@ const Projects = () => {
         </Reveal>
 
         <div className="mt-20 md:mt-28 grid grid-cols-12 gap-x-6 md:gap-x-10 gap-y-24 md:gap-y-32">
+          <ProjectCard p={projects[1]} layout="full" />
           <ProjectCard p={projects[0]} layout="full" />
-          <ProjectCard p={projects[1]} layout="half" />
-          <ProjectCard p={projects[2]} layout="half" />
-          <ProjectCard p={projects[3]} layout="half" />
-          <ProjectCard p={projects[4]} layout="half" />
+          <ProjectCard p={projects[3]} layout="full" />
           <ProjectCard p={projects[5]} layout="full" />
+          <ProjectCard p={projects[2]} layout="half" />
+          <ProjectCard p={projects[4]} layout="half" />
         </div>
       </div>
     </section>

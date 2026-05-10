@@ -18,7 +18,8 @@ const Footer = () => {
               Zaeem<span className="text-[var(--accent)]">.</span>
             </div>
             <p className="mt-3 text-neutral-500 text-sm font-light max-w-[420px]">
-              Frontend &amp; full-stack engineer · Crafting cinematic interfaces.
+              Frontend &amp; full-stack engineer · Crafting cinematic
+              interfaces.
             </p>
           </div>
 
@@ -54,6 +55,16 @@ const Footer = () => {
                   data-testid="footer-email"
                 >
                   Email ↗
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:zaeeemafzal@gmail.com"
+                  className="hover:text-[var(--accent)] transition-colors"
+                  data-testid="footer-email"
+                >
+                  Contact Me ↗<br />
+                  <span>+92 3019074249</span>
                 </a>
               </li>
             </ul>
