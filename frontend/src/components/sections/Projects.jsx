@@ -13,7 +13,7 @@ const projects = [
     description:
       "A modern, responsive e-commerce front built with React and Tailwind — animated product grid, cart state, and a polished checkout-ready UI.",
     image:
-      "https://static.prod-images.emergentagent.com/jobs/9da37acc-7b06-49a2-a627-164c81d03ee9/images/45cb5588268f385c7255c702a2fab1d3d769e40ddf1371fffcc1e0fc20d6c466.png",
+      "https://customer-assets.emergentagent.com/job_zaeem-editorial/artifacts/8tmvuncw_image.png",
     live: "https://react-web-ecommerce-app.vercel.app/",
     github: null,
     span: "lg",
